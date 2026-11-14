@@ -466,7 +466,7 @@
   "LabelMissingEbook": "Nima nobene e-knjige",
   "LabelMissingSupplementaryEbook": "Nima nobene dodatne e-knjige",
   "LabelMobileRedirectURIs": "Dovoljeni mobilni preusmeritveni URI-ji",
-  "LabelMobileRedirectURIsDescription": "To je seznam dovoljenih veljavnih preusmeritvenih URI-jev za mobilne aplikacije. Privzeti je <code>audiobookshelf://oauth</code>, ki ga lahko odstranite ali dopolnite z dodatnimi URI-ji za integracijo aplikacij tretjih oseb. Uporaba zvezdice (<code>*</code>) kot edinega vnosa dovoljuje kateri koli URI.",
+  "LabelMobileRedirectURIsDescription": "To je seznam dovoljenih veljavnih preusmeritvenih URI-jev za mobilne aplikacije. Privzeti je <code>universalaudiobooks://oauth</code>, ki ga lahko odstranite ali dopolnite z dodatnimi URI-ji za integracijo aplikacij tretjih oseb. Uporaba zvezdice (<code>*</code>) kot edinega vnosa dovoljuje kateri koli URI.",
   "LabelMore": "Več",
   "LabelMoreInfo": "Več informacij",
   "LabelName": "Naziv",

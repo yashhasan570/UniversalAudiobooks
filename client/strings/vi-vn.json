@@ -351,7 +351,7 @@
   "LabelMissingEbook": "Không có ebook",
   "LabelMissingSupplementaryEbook": "Không có ebook bổ sung",
   "LabelMobileRedirectURIs": "URI chuyển hướng di động được cho phép",
-  "LabelMobileRedirectURIsDescription": "Đây là danh sách trắng các URI chuyển hướng hợp lệ cho ứng dụng di động. Mặc định là <code>audiobookshelf://oauth</code>, bạn có thể loại bỏ hoặc bổ sung thêm các URI cho tích hợp ứng dụng bên thứ ba. Sử dụng dấu hoa thị (<code>*</code>) như một mục duy nhất cho phép bất kỳ URI nào.",
+  "LabelMobileRedirectURIsDescription": "Đây là danh sách trắng các URI chuyển hướng hợp lệ cho ứng dụng di động. Mặc định là <code>universalaudiobooks://oauth</code>, bạn có thể loại bỏ hoặc bổ sung thêm các URI cho tích hợp ứng dụng bên thứ ba. Sử dụng dấu hoa thị (<code>*</code>) như một mục duy nhất cho phép bất kỳ URI nào.",
   "LabelMore": "Thêm",
   "LabelMoreInfo": "Thông tin thêm",
   "LabelName": "Tên",

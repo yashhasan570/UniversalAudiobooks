@@ -469,7 +469,7 @@
   "LabelMissingEbook": "Heeft geen ebook",
   "LabelMissingSupplementaryEbook": "Heeft geen supplementair ebook",
   "LabelMobileRedirectURIs": "Toegestane mobiele omleidings-URL's",
-  "LabelMobileRedirectURIsDescription": "Dit is een whitelist met geldige redirect-URI's voor mobiele apps. De standaard is <code>audiobookshelf://oauth</code>, die u kunt verwijderen of aanvullen met extra URI's voor integratie met apps van derden. Als u een asterisk (<code>*</code>) als enige invoer gebruikt, is elke URI toegestaan.",
+  "LabelMobileRedirectURIsDescription": "Dit is een whitelist met geldige redirect-URI's voor mobiele apps. De standaard is <code>universalaudiobooks://oauth</code>, die u kunt verwijderen of aanvullen met extra URI's voor integratie met apps van derden. Als u een asterisk (<code>*</code>) als enige invoer gebruikt, is elke URI toegestaan.",
   "LabelMore": "Meer",
   "LabelMoreInfo": "Meer info",
   "LabelName": "Naam",

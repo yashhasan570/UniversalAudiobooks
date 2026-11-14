@@ -7,7 +7,7 @@ class MusicBrainz {
   constructor() { }
 
   get userAgentString() {
-    return `audiobookshelf/${packageJson.version} (https://audiobookshelf.org)`
+    return `universalaudiobooks/${packageJson.version} (https://audiobookshelf.org)`
   }
 
   // https://musicbrainz.org/doc/MusicBrainz_API/Search

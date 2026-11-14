@@ -466,7 +466,7 @@
   "LabelMissingEbook": "전자책이 없습니다",
   "LabelMissingSupplementaryEbook": "보충 전자책이 없습니다",
   "LabelMobileRedirectURIs": "허용된 모바일 리디렉션 URI",
-  "LabelMobileRedirectURIsDescription": "모바일 앱에 유효한 리디렉션 URI 허용 목록입니다. 기본 허용 목록은 <code>audiobookshelf://oauth</code>이며, 타사 앱 통합을 위해 추가 URI로 보완하거나 삭제할 수 있습니다. 별표(<code>*</code>)만 사용하면 모든 URI가 허용됩니다.",
+  "LabelMobileRedirectURIsDescription": "모바일 앱에 유효한 리디렉션 URI 허용 목록입니다. 기본 허용 목록은 <code>universalaudiobooks://oauth</code>이며, 타사 앱 통합을 위해 추가 URI로 보완하거나 삭제할 수 있습니다. 별표(<code>*</code>)만 사용하면 모든 URI가 허용됩니다.",
   "LabelMore": "더보기",
   "LabelMoreInfo": "정보 더 보기",
   "LabelName": "이름",

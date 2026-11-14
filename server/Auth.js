@@ -376,7 +376,7 @@ class Auth {
     })
 
     // This will be the oauth2 callback route for mobile clients
-    // It will redirect to an app-link like audiobookshelf://oauth
+    // It will redirect to an app-link like universalaudiobooks://oauth
     router.get('/auth/openid/mobile-redirect', this.authRateLimiter, (req, res) => this.oidcAuthStrategy.handleMobileRedirect(req, res))
 
     // openid strategy callback route (this receives the token from the configured openid login provider)
@@ -459,7 +459,7 @@ class Auth {
      * Helper route used to auto-populate the openid URLs in config/authentication
      * Takes an issuer URL as a query param and requests the config data at "/.well-known/openid-configuration"
      *
-     * @example /auth/openid/config?issuer=http://192.168.1.66:9000/application/o/audiobookshelf/
+     * @example /auth/openid/config?issuer=http://192.168.1.66:9000/application/o/universalaudiobooks/
      */
     router.get('/auth/openid/config', this.authRateLimiter, this.isAuthenticated, async (req, res) => {
       if (!req.user.isAdminOrUp) {

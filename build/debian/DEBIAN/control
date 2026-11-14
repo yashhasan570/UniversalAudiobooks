@@ -1,8 +1,8 @@
-Package: audiobookshelf
+Package: universalaudiobooks
 Version: 1.6.41
 Section: base
 Priority: optional
 Architecture: amd64
 Depends:
-Maintainer: advplyr
+Maintainer: yashhasan570
 Description: Self-hosted audiobook server for managing and playing audiobooks

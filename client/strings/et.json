@@ -362,7 +362,7 @@
   "LabelMinute": "Minut",
   "LabelMissing": "Puudub",
   "LabelMobileRedirectURIs": "Lubatud mobiilile suunamise URI-d",
-  "LabelMobileRedirectURIsDescription": "See on mobiilirakenduste jaoks kehtivate suunamise URI-de lubatud nimekiri. Vaikimisi on selleks <code>audiobookshelf://oauth</code>, mida saate eemaldada või täiendada täiendavate URI-dega kolmanda osapoole rakenduste integreerimiseks. Tärni (<code>*</code>) ainukese kirjena kasutamine võimaldab mis tahes URI-d.",
+  "LabelMobileRedirectURIsDescription": "See on mobiilirakenduste jaoks kehtivate suunamise URI-de lubatud nimekiri. Vaikimisi on selleks <code>universalaudiobooks://oauth</code>, mida saate eemaldada või täiendada täiendavate URI-dega kolmanda osapoole rakenduste integreerimiseks. Tärni (<code>*</code>) ainukese kirjena kasutamine võimaldab mis tahes URI-d.",
   "LabelMore": "Rohkem",
   "LabelMoreInfo": "Rohkem infot",
   "LabelName": "Nimi",

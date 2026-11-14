@@ -53,7 +53,7 @@ export default {
       return this.$store.state.globals.libraryIcons
     },
     selectedItem() {
-      return this.icons.find((i) => i === this.selected) || 'audiobookshelf'
+      return this.icons.find((i) => i === this.selected) || 'universalaudiobooks'
     }
   },
   methods: {

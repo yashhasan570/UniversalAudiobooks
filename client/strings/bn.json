@@ -469,7 +469,7 @@
   "LabelMissingEbook": "কোনও ই-বই নেই",
   "LabelMissingSupplementaryEbook": "কোনও সম্পূরক ই-বই নেই",
   "LabelMobileRedirectURIs": "অনুমোদিত মোবাইল রিডাইরেক্ট URIs",
-  "LabelMobileRedirectURIsDescription": "এটি মোবাইল অ্যাপের জন্য বৈধ পুনঃনির্দেশিত URI-এর একটি সাদা তালিকা। ডিফল্টটি হল <code>audiobookshelf://oauth</code>, যা আপনি তৃতীয় পক্ষের অ্যাপ ইন্টিগ্রেশনের জন্য অতিরিক্ত URI-এর সাথে সরাতে বা সম্পূরক করতে পারেন। একটি তারকাচিহ্ন (<code>*</code>) ব্যবহার করে একমাত্র এন্ট্রি যেকোন ইউআরআইকে অনুমতি দেয়।",
+  "LabelMobileRedirectURIsDescription": "এটি মোবাইল অ্যাপের জন্য বৈধ পুনঃনির্দেশিত URI-এর একটি সাদা তালিকা। ডিফল্টটি হল <code>universalaudiobooks://oauth</code>, যা আপনি তৃতীয় পক্ষের অ্যাপ ইন্টিগ্রেশনের জন্য অতিরিক্ত URI-এর সাথে সরাতে বা সম্পূরক করতে পারেন। একটি তারকাচিহ্ন (<code>*</code>) ব্যবহার করে একমাত্র এন্ট্রি যেকোন ইউআরআইকে অনুমতি দেয়।",
   "LabelMore": "আরো",
   "LabelMoreInfo": "আরো তথ্য",
   "LabelName": "নাম",

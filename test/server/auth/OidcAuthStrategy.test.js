@@ -58,9 +58,9 @@ describe('OidcAuthStrategy - isValidWebCallbackUrl', () => {
   })
 
   it('rejects same-origin URLs outside router base path', () => {
-    global.RouterBasePath = '/audiobookshelf'
+    global.RouterBasePath = '/universalaudiobooks'
     expect(strategy.isValidWebCallbackUrl('/login', mockReq())).to.equal(false)
-    expect(strategy.isValidWebCallbackUrl('/audiobookshelf/login', mockReq())).to.equal(true)
+    expect(strategy.isValidWebCallbackUrl('/universalaudiobooks/login', mockReq())).to.equal(true)
   })
 
   it('rejects empty and malformed callback URLs', () => {

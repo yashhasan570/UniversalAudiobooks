@@ -103,7 +103,7 @@ class ServerSettings {
     this.authOpenIDAutoLaunch = false
     this.authOpenIDAutoRegister = false
     this.authOpenIDMatchExistingBy = null
-    this.authOpenIDMobileRedirectURIs = ['audiobookshelf://oauth']
+    this.authOpenIDMobileRedirectURIs = ['universalaudiobooks://oauth']
     this.authOpenIDGroupClaim = ''
     this.authOpenIDAdvancedPermsClaim = ''
     this.authOpenIDSubfolderForRedirectURLs = undefined
@@ -167,7 +167,7 @@ class ServerSettings {
     this.authOpenIDAutoLaunch = !!settings.authOpenIDAutoLaunch
     this.authOpenIDAutoRegister = !!settings.authOpenIDAutoRegister
     this.authOpenIDMatchExistingBy = settings.authOpenIDMatchExistingBy || null
-    this.authOpenIDMobileRedirectURIs = settings.authOpenIDMobileRedirectURIs || ['audiobookshelf://oauth']
+    this.authOpenIDMobileRedirectURIs = settings.authOpenIDMobileRedirectURIs || ['universalaudiobooks://oauth']
     this.authOpenIDGroupClaim = settings.authOpenIDGroupClaim || ''
     this.authOpenIDAdvancedPermsClaim = settings.authOpenIDAdvancedPermsClaim || ''
     this.authOpenIDSubfolderForRedirectURLs = settings.authOpenIDSubfolderForRedirectURLs

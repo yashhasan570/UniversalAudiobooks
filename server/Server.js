@@ -48,7 +48,7 @@ const MemoryStore = require('./libs/memorystore')
 
 /**
  * Normalize to '' (root) or '/segment' with no trailing slash.
- * Matches audiobookshelf-client-react `src/lib/basePath.ts`.
+ * Matches universalaudiobooks-client-react `src/lib/basePath.ts`.
  * @param {string|null|undefined} basePath
  * @returns {string}
  */
@@ -376,7 +376,7 @@ class Server {
       // status check for client to see if server has been initialized
       // server has been initialized if a root user exists
       const payload = {
-        app: 'audiobookshelf',
+        app: 'universalaudiobooks',
         serverVersion: version,
         isInit: Database.hasRootUser,
         language: Database.serverSettings.language,

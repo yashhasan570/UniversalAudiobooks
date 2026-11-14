@@ -469,7 +469,7 @@
   "LabelMissingEbook": "E-Buch fehlt",
   "LabelMissingSupplementaryEbook": "Ergänzendes E-Buch fehlt",
   "LabelMobileRedirectURIs": "Erlaubte Weiterleitungs-URIs für die mobile App",
-  "LabelMobileRedirectURIsDescription": "Dies ist eine weiße Liste gültiger Umleitungs-URIs für mobile Apps. Der Standardwert ist <code>audiobookshelf://oauth</code>, den du entfernen oder durch zusätzliche URIs für die Integration von Drittanbieter-Apps ergänzen kannst. Die Verwendung eines Sternchens (<code>*</code>) als alleiniger Eintrag erlaubt jede URI.",
+  "LabelMobileRedirectURIsDescription": "Dies ist eine weiße Liste gültiger Umleitungs-URIs für mobile Apps. Der Standardwert ist <code>universalaudiobooks://oauth</code>, den du entfernen oder durch zusätzliche URIs für die Integration von Drittanbieter-Apps ergänzen kannst. Die Verwendung eines Sternchens (<code>*</code>) als alleiniger Eintrag erlaubt jede URI.",
   "LabelMore": "Mehr",
   "LabelMoreInfo": "Mehr Infos",
   "LabelName": "Name",

@@ -2,7 +2,7 @@
 set -e
 set -o pipefail
 
-ABS_LOG_DIR="/var/log/audiobookshelf"
+ABS_LOG_DIR="/var/log/universalaudiobooks"
 
 declare -r init_type='auto'
 declare -ri no_rebuild='0'
@@ -41,7 +41,7 @@ start_service () {
 # Create log directory if not there and set ownership
 if [ ! -d "$ABS_LOG_DIR" ]; then
   mkdir -p "$ABS_LOG_DIR"
-  chown -R 'audiobookshelf:audiobookshelf' "$ABS_LOG_DIR"
+  chown -R 'universalaudiobooks:universalaudiobooks' "$ABS_LOG_DIR"
 fi
 
-start_service 'audiobookshelf'
+start_service 'universalaudiobooks'

@@ -466,7 +466,7 @@
   "LabelMissingEbook": "電子書籍なし",
   "LabelMissingSupplementaryEbook": "付属電子書籍なし",
   "LabelMobileRedirectURIs": "許可されたモバイルリダイレクトURI",
-  "LabelMobileRedirectURIsDescription": "これはモバイルアプリの有効なリダイレクトURIのホワイトリストです。デフォルトは <code>audiobookshelf://oauth</code> です。削除するか、サードパーティーアプリ統合用の追加URIで補足できます。アスタリスク(<code>*</code>)を唯一のエントリとして使用すると、任意のURIが許可されます。",
+  "LabelMobileRedirectURIsDescription": "これはモバイルアプリの有効なリダイレクトURIのホワイトリストです。デフォルトは <code>universalaudiobooks://oauth</code> です。削除するか、サードパーティーアプリ統合用の追加URIで補足できます。アスタリスク(<code>*</code>)を唯一のエントリとして使用すると、任意のURIが許可されます。",
   "LabelMore": "多い",
   "LabelMoreInfo": "追加情報",
   "LabelName": "名前",

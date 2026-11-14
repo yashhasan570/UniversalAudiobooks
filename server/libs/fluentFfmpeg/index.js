@@ -2,7 +2,7 @@
 'use strict';
 
 //
-// modified for use with audiobookshelf
+// modified for use with universalaudiobooks
 // Source: https://github.com/fluent-ffmpeg/node-fluent-ffmpeg
 //
 

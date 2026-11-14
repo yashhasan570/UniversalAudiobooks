@@ -3,7 +3,7 @@ set -e
 set -o pipefail
 
 declare -r init_type='auto'
-declare -r service_name='audiobookshelf'
+declare -r service_name='universalaudiobooks'
 
 if [[ "$init_type" == 'auto' || "$init_type" == 'systemd' || "$init_type" == 'upstart' || "$init_type" == 'sysv' ]]; then
   if hash systemctl 2> /dev/null; then

@@ -1,7 +1,7 @@
 <template>
   <div class="text-center mt-4 relative">
     <div class="flex py-4">
-      <ui-file-input ref="fileInput" class="mr-2" accept=".audiobookshelf" @change="backupUploaded">{{ $strings.ButtonUploadBackup }}</ui-file-input>
+      <ui-file-input ref="fileInput" class="mr-2" accept=".universalaudiobooks" @change="backupUploaded">{{ $strings.ButtonUploadBackup }}</ui-file-input>
       <div class="grow" />
       <ui-btn :loading="isBackingUp" @click="clickCreateBackup">{{ $strings.ButtonCreateBackup }}</ui-btn>
     </div>
@@ -22,7 +22,7 @@
           <td>
             <div class="w-full flex flex-row items-center justify-center">
               <ui-btn v-if="backup.serverVersion && backup.key" small color="bg-primary" @click="applyBackup(backup)">{{ $strings.ButtonRestore }}</ui-btn>
-              <ui-tooltip v-else text="This backup was created with an old version of audiobookshelf no longer supported" direction="bottom" class="mx-2 flex items-center">
+              <ui-tooltip v-else text="This backup was created with an old version of universalaudiobooks no longer supported" direction="bottom" class="mx-2 flex items-center">
                 <span class="material-symbols text-2xl text-error">error_outline</span>
               </ui-tooltip>
 

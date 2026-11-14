@@ -469,7 +469,7 @@
   "LabelMissingEbook": "没有电子书",
   "LabelMissingSupplementaryEbook": "没有补充电子书",
   "LabelMobileRedirectURIs": "允许移动应用重定向 URI",
-  "LabelMobileRedirectURIsDescription": "这是移动应用程序的有效重定向 URI 白名单。默认值为 <code>audiobookshelf://oauth</code>，你可以删除它或添加其他 URI 以进行第三方应用集成。使用星号（<code>*</code>）作为唯一条目允许任何 URI。",
+  "LabelMobileRedirectURIsDescription": "这是移动应用程序的有效重定向 URI 白名单。默认值为 <code>universalaudiobooks://oauth</code>，你可以删除它或添加其他 URI 以进行第三方应用集成。使用星号（<code>*</code>）作为唯一条目允许任何 URI。",
   "LabelMore": "更多",
   "LabelMoreInfo": "更多信息",
   "LabelName": "名称",

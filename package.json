@@ -1,5 +1,5 @@
 {
-  "name": "audiobookshelf",
+  "name": "universalaudiobooks",
   "version": "2.37.2",
   "buildNumber": 1,
   "description": "Self-hosted audiobook and podcast server",
@@ -11,8 +11,8 @@
     "start-dev": "node dist-server/index.js --prod-with-dev-env",
     "client": "cd client && npm ci && npm run generate",
     "prod": "npm run client && npm ci && npm run build:server && npm run start",
-    "build-win": "npm run client && npm run build:server && pkg --config package.json -t node24-win-x64 -o ./dist/win/audiobookshelf -C GZip dist-server/index.js",
-    "build-win-no-compress": "npm run client && npm run build:server && pkg --config package.json -t node24-win-x64 -o ./dist/win/audiobookshelf dist-server/index.js",
+    "build-win": "npm run client && npm run build:server && pkg --config package.json -t node24-win-x64 -o ./dist/win/universalaudiobooks -C GZip dist-server/index.js",
+    "build-win-no-compress": "npm run client && npm run build:server && pkg --config package.json -t node24-win-x64 -o ./dist/win/universalaudiobooks dist-server/index.js",
     "build-linux": "build/linuxpackager",
     "docker": "docker buildx build --platform linux/amd64,linux/arm64 --push .  -t yashhasan570/UniversalAudiobooks",
     "docker-amd64-local": "docker buildx build --platform linux/amd64 --load .  -t yashhasan570/UniversalAudiobooks-amd64-local",
@@ -37,7 +37,7 @@
   "mocha": {
     "recursive": true
   },
-  "author": "advplyr",
+  "author": "yashhasan570",
   "license": "GPL-3.0",
   "dependencies": {
     "axios": "^0.27.2",

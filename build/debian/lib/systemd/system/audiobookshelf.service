@@ -4,15 +4,15 @@ Requires=network.target
 
 [Service]
 Type=simple
-EnvironmentFile=/etc/default/audiobookshelf
-WorkingDirectory=/usr/share/audiobookshelf
-ExecStart=/usr/share/audiobookshelf/audiobookshelf
+EnvironmentFile=/etc/default/universalaudiobooks
+WorkingDirectory=/usr/share/universalaudiobooks
+ExecStart=/usr/share/universalaudiobooks/universalaudiobooks
 ExecReload=/bin/kill -HUP $MAINPID
 Restart=always
-User=audiobookshelf
-Group=audiobookshelf
-Environment=HOME=/var/cache/audiobookshelf
-CacheDirectory=audiobookshelf
+User=universalaudiobooks
+Group=universalaudiobooks
+Environment=HOME=/var/cache/universalaudiobooks
+CacheDirectory=universalaudiobooks
 
 [Install]
 WantedBy=multi-user.target

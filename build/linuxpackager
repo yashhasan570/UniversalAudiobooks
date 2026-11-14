@@ -9,7 +9,7 @@ cd "$SCRIPT_DIR/.."
 # Get package version without double quotes
 VERSION="$( eval echo $( jq '.version' package.json) )"
 DESCRIPTION="$( eval echo $( jq '.description' package.json) )"
-OUTPUT_FILE="audiobookshelf_${VERSION}_amd64.deb"
+OUTPUT_FILE="universalaudiobooks_${VERSION}_amd64.deb"
 
 echo ">>> Building Client"
 echo "--------------------"
@@ -36,13 +36,13 @@ mkdir -p dist
 rm -rf dist/debian
 cp -R build/debian dist/debian
 
-controlfile="Package: audiobookshelf
+controlfile="Package: universalaudiobooks
 Version: $VERSION
 Section: base
 Priority: optional
 Architecture: amd64
 Depends:
-Maintainer: advplyr
+Maintainer: yashhasan570
 Description: $DESCRIPTION"
 
 echo "$controlfile" > dist/debian/DEBIAN/control;
@@ -54,7 +54,7 @@ find dist/debian -type f -exec chmod 644 {} +
 chmod 755 dist/debian/DEBIAN/preinst dist/debian/DEBIAN/postinst dist/debian/DEBIAN/prerm
 
 # Package debian
-pkg --config package.json -t node24-linux-x64 -o dist/debian/usr/share/audiobookshelf/audiobookshelf dist-server/index.js
+pkg --config package.json -t node24-linux-x64 -o dist/debian/usr/share/universalaudiobooks/universalaudiobooks dist-server/index.js
 
 fakeroot dpkg-deb -Zxz --build dist/debian
 

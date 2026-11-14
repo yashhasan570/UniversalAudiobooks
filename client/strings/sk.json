@@ -466,7 +466,7 @@
   "LabelMissingEbook": "Nemá e-knihu",
   "LabelMissingSupplementaryEbook": "Nemá doplnkovú e-knihu",
   "LabelMobileRedirectURIs": "Povolené Mobile Redirect URI",
-  "LabelMobileRedirectURIsDescription": "Toto je zoznam povolených URI pre mobilné aplikácie. Prednastavená je <code>audiobookshelf://oauth</code>, ktorú však môžete odstrániť alebo nahradiť inou URI pre integráciu aplikácií tretích strán. Použitím hviezdičky (<code>*</code>) povolíte všetky URI.",
+  "LabelMobileRedirectURIsDescription": "Toto je zoznam povolených URI pre mobilné aplikácie. Prednastavená je <code>universalaudiobooks://oauth</code>, ktorú však môžete odstrániť alebo nahradiť inou URI pre integráciu aplikácií tretích strán. Použitím hviezdičky (<code>*</code>) povolíte všetky URI.",
   "LabelMore": "Viac",
   "LabelMoreInfo": "Viac informácií",
   "LabelName": "Meno",
