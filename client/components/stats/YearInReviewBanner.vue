@@ -3,7 +3,7 @@
     <!-- hack to get icon fonts loaded on init -->
     <div class="h-0 w-0 overflow-hidden opacity-0">
       <span class="material-symbols">close</span>
-      <span class="abs-icons icon-universalaudiobooks" />
+      <span class="abs-icons icon-audiobookshelf" />
     </div>
 
     <div class="flex items-center">

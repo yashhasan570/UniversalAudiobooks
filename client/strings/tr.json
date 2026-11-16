@@ -466,7 +466,7 @@
   "LabelMissingEbook": "E-kitabı yok",
   "LabelMissingSupplementaryEbook": "Ek e-kitabı yok",
   "LabelMobileRedirectURIs": "İzin Verilen Mobil Yönlendirme URI'leri",
-  "LabelMobileRedirectURIsDescription": "Bu, mobil uygulamalar için geçerli yönlendirme URL'lerinin beyaz listesidir. Varsayılan olan <code>universalaudiobooks://oauth</code>'dır, bunu kaldırabilir veya üçüncü taraf uygulama entegrasyonu için ek URL'lerle tamamlayabilirsiniz. Tek giriş olarak bir yıldız işareti (<code>*</code>) kullanmak herhangi bir URL'ye izin verir.",
+  "LabelMobileRedirectURIsDescription": "Bu, mobil uygulamalar için geçerli yönlendirme URL'lerinin beyaz listesidir. Varsayılan olan <code>audiobookshelf://oauth</code>'dır, bunu kaldırabilir veya üçüncü taraf uygulama entegrasyonu için ek URL'lerle tamamlayabilirsiniz. Tek giriş olarak bir yıldız işareti (<code>*</code>) kullanmak herhangi bir URL'ye izin verir.",
   "LabelMore": "Daha Fazla",
   "LabelMoreInfo": "Daha Fazla Bilgi",
   "LabelName": "İsim",

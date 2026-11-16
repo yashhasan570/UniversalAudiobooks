@@ -466,7 +466,7 @@
   "LabelMissingEbook": "Har ingen e-bog",
   "LabelMissingSupplementaryEbook": "Har ingen supplerende e-bog",
   "LabelMobileRedirectURIs": "Godkendte mobil redirect URI'er",
-  "LabelMobileRedirectURIsDescription": "Dete vil whiteliste en gyldig omdirigerings URL for mobile apps. Den standarde er <code>universalaudiobooks://oauth</code> som du kan fjerne eller supplere med flere URI'er for tredjeparts app integration. Anvend en stjerne (<code>*</code>) som den eneste indstilling for at tilade en hvilkensomhelst URI.",
+  "LabelMobileRedirectURIsDescription": "Dete vil whiteliste en gyldig omdirigerings URL for mobile apps. Den standarde er <code>audiobookshelf://oauth</code> som du kan fjerne eller supplere med flere URI'er for tredjeparts app integration. Anvend en stjerne (<code>*</code>) som den eneste indstilling for at tilade en hvilkensomhelst URI.",
   "LabelMore": "Mere",
   "LabelMoreInfo": "Mere info",
   "LabelName": "Navn",

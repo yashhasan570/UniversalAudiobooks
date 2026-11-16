@@ -9,7 +9,7 @@ export default {
   props: {
     icon: {
       type: String,
-      default: 'universalaudiobooks'
+      default: 'audiobookshelf'
     },
     fontSize: {
       type: String,
@@ -33,7 +33,7 @@ export default {
       }
     },
     iconToUse() {
-      return this.icons.includes(this.icon) ? this.icon : 'universalaudiobooks'
+      return this.icons.includes(this.icon) ? this.icon : 'audiobookshelf'
     },
     icons() {
       return this.$store.state.globals.libraryIcons

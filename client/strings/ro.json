@@ -463,7 +463,7 @@
   "LabelMissingEbook": "Nu are carte electronică",
   "LabelMissingSupplementaryEbook": "Nu are carte electronică adițională",
   "LabelMobileRedirectURIs": "URL-uri de redirecționare Mobile Permise",
-  "LabelMobileRedirectURIsDescription": "Aceasta este o listă cu URI-uri valide pentru redirectionare a aplicațiilor mobile. URI-ul predefinit este <code>universalaudiobooks://oauth</code>,, care poate fi sters sau suplimentat cu URI-uri adiționale pentru integrarea cu alte aplicații. Folosirea unui asterisc (<code>*</code>) ca singur element permite orice URI.",
+  "LabelMobileRedirectURIsDescription": "Aceasta este o listă cu URI-uri valide pentru redirectionare a aplicațiilor mobile. URI-ul predefinit este <code>audiobookshelf://oauth</code>,, care poate fi sters sau suplimentat cu URI-uri adiționale pentru integrarea cu alte aplicații. Folosirea unui asterisc (<code>*</code>) ca singur element permite orice URI.",
   "LabelMore": "Mai multe",
   "LabelMoreInfo": "Mai multe informații",
   "LabelName": "Nume",

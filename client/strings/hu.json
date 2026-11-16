@@ -469,7 +469,7 @@
   "LabelMissingEbook": "Nincs e-könyve",
   "LabelMissingSupplementaryEbook": "Nincs kiegészítő e-könyve",
   "LabelMobileRedirectURIs": "Engedélyezett mobil átirányítási URI-k",
-  "LabelMobileRedirectURIsDescription": "Ez egy fehérlista az érvényes mobilalkalmazás-átirányítási URI-k számára. Az alapértelmezett <code>universalaudiobooks://oauth</code>, amely eltávolítható vagy kiegészíthető további URI-kkal harmadik féltől származó alkalmazásintegráció érdekében. Ha az egyetlen bejegyzés egy csillag (<code>*</code>), akkor bármely URI engedélyezett.",
+  "LabelMobileRedirectURIsDescription": "Ez egy fehérlista az érvényes mobilalkalmazás-átirányítási URI-k számára. Az alapértelmezett <code>audiobookshelf://oauth</code>, amely eltávolítható vagy kiegészíthető további URI-kkal harmadik féltől származó alkalmazásintegráció érdekében. Ha az egyetlen bejegyzés egy csillag (<code>*</code>), akkor bármely URI engedélyezett.",
   "LabelMore": "Több",
   "LabelMoreInfo": "További információ",
   "LabelName": "Név",

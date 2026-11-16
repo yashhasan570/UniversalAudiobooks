@@ -469,7 +469,7 @@
   "LabelMissingEbook": "Har ingen e-bok",
   "LabelMissingSupplementaryEbook": "Har ingen komplementær e-bok",
   "LabelMobileRedirectURIs": "Tillatte URL-er for vidersending",
-  "LabelMobileRedirectURIsDescription": "Dette er en liste over godkjente videresendings-URL-er for mobil-apper. Standarden er <code>universalaudiobooks://oauth</code>, som du kan fjerne eller supplere med ekstra URL-er for tredjeparts app-integrasjoner. For å tillate alle URL-er kan du bruke kun en (<code>*</code>) .",
+  "LabelMobileRedirectURIsDescription": "Dette er en liste over godkjente videresendings-URL-er for mobil-apper. Standarden er <code>audiobookshelf://oauth</code>, som du kan fjerne eller supplere med ekstra URL-er for tredjeparts app-integrasjoner. For å tillate alle URL-er kan du bruke kun en (<code>*</code>) .",
   "LabelMore": "Mer",
   "LabelMoreInfo": "Mer info",
   "LabelName": "Navn",

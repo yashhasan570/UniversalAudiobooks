@@ -356,11 +356,11 @@ module.exports.parsePodcastRssFeedXml = async (xml, excludeEpisodeMetadata = fal
 module.exports.getPodcastFeed = (feedUrl, excludeEpisodeMetadata = false) => {
   Logger.debug(`[podcastUtils] getPodcastFeed for "${feedUrl}"`)
 
-  let userAgent = 'universalaudiobooks (+https://audiobookshelf.org; like iTMS)'
+  let userAgent = 'audiobookshelf (+https://audiobookshelf.org; like iTMS)'
   // Workaround for CBC RSS feeds rejecting our user agent string
   // See: https://github.com/yashhasan570/UniversalAudiobooks/issues/3322
   if (feedUrl.startsWith('https://www.cbc.ca')) {
-    userAgent = 'universalaudiobooks (+https://audiobookshelf.org; like iTMS) - CBC'
+    userAgent = 'audiobookshelf (+https://audiobookshelf.org; like iTMS) - CBC'
   }
 
   return axios({

@@ -2,8 +2,8 @@
 set -e
 set -o pipefail
 
-DEFAULT_DATA_DIR="/usr/share/universalaudiobooks"
-CONFIG_PATH="/etc/default/universalaudiobooks"
+DEFAULT_DATA_DIR="/usr/share/audiobookshelf"
+CONFIG_PATH="/etc/default/audiobookshelf"
 DEFAULT_PORT=13378
 DEFAULT_HOST="0.0.0.0"
 
@@ -56,7 +56,7 @@ setup_config() {
       # Create directory and set permissions
       echo "Creating default data dir at $DEFAULT_DATA_DIR"
       mkdir "$DEFAULT_DATA_DIR"
-      chown -R 'universalaudiobooks:universalaudiobooks' "$DEFAULT_DATA_DIR"
+      chown -R 'audiobookshelf:audiobookshelf' "$DEFAULT_DATA_DIR"
     fi
 
     echo "Creating default config."
@@ -68,14 +68,14 @@ HOST=$DEFAULT_HOST"
 
     echo "$config_text"
 
-    echo "$config_text" > /etc/default/universalaudiobooks;
+    echo "$config_text" > /etc/default/audiobookshelf;
 
     echo "Config created"
   fi
 }
 
-add_group 'universalaudiobooks' ''
+add_group 'audiobookshelf' ''
 
-add_user 'universalaudiobooks' '' 'universalaudiobooks' 'universalaudiobooks user-daemon' '/bin/false'
+add_user 'audiobookshelf' '' 'audiobookshelf' 'audiobookshelf user-daemon' '/bin/false'
 
 setup_config

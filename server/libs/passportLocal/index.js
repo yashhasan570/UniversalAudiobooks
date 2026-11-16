@@ -1,5 +1,5 @@
 //
-// modified for universalaudiobooks
+// modified for audiobookshelf
 // Source: https://github.com/jaredhanson/passport-local
 //
 

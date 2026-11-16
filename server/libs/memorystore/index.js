@@ -4,7 +4,7 @@
  * MIT Licensed
  */
 //
-// modified for universalaudiobooks (update to lru-cache 10)
+// modified for audiobookshelf (update to lru-cache 10)
 // SOURCE: https://github.com/roccomuso/memorystore
 //
 

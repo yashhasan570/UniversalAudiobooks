@@ -1,5 +1,5 @@
 //
-// node-ffprobe modified for universalaudiobooks
+// node-ffprobe modified for audiobookshelf
 // SOURCE: https://github.com/ListenerApproved/node-ffprobe
 //
 

@@ -40,7 +40,7 @@
 /*
   ORIGINAL SOURCE: https://github.com/hanhdt/vue-trix
 
-  modified for universalaudiobooks
+  modified for audiobookshelf
 */
 import Trix from 'trix'
 import '@/assets/trix.css'

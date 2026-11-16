@@ -466,7 +466,7 @@
   "LabelMissingEbook": "אין ספר אלקטרוני",
   "LabelMissingSupplementaryEbook": "אין ספר אלקטרוני נלווה",
   "LabelMobileRedirectURIs": "כתובות משדר ניידות מורשות",
-  "LabelMobileRedirectURIsDescription": "זהו רשימה לבניה של כתובות ה-URI הנתמכות להפניות עבור אפליקציות ניידות. הברירת מחדל היא <code>universalaudiobooks://oauth</code>, שניתן להסיר או להוסיף לה כתובות נוספות לאינטגרציה עם אפליקציות צד שלישי. שימוש בכוכבית (<code>*</code>) כקלט בודד מאפשר כל URI.",
+  "LabelMobileRedirectURIsDescription": "זהו רשימה לבניה של כתובות ה-URI הנתמכות להפניות עבור אפליקציות ניידות. הברירת מחדל היא <code>audiobookshelf://oauth</code>, שניתן להסיר או להוסיף לה כתובות נוספות לאינטגרציה עם אפליקציות צד שלישי. שימוש בכוכבית (<code>*</code>) כקלט בודד מאפשר כל URI.",
   "LabelMore": "עוד",
   "LabelMoreInfo": "מידע נוסף",
   "LabelName": "שם",

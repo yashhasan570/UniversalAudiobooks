@@ -102,7 +102,7 @@ class BackupManager {
 
   async uploadBackup(req, res) {
     const backupFile = req.files.file
-    if (Path.extname(backupFile.name) !== '.universalaudiobooks') {
+    if (Path.extname(backupFile.name) !== '.audiobookshelf') {
       Logger.error(`[BackupManager] Invalid backup file uploaded "${backupFile.name}"`)
       return res.status(500).send('Invalid backup file')
     }
@@ -272,7 +272,7 @@ class BackupManager {
 
       for (let i = 0; i < filesInDir.length; i++) {
         const filename = filesInDir[i]
-        if (filename.endsWith('.universalaudiobooks')) {
+        if (filename.endsWith('.audiobookshelf')) {
           const fullFilePath = Path.join(this.backupPath, filename)
 
           let zip = null

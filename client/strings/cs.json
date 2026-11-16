@@ -469,7 +469,7 @@
   "LabelMissingEbook": "Nemá elektronickou knihu",
   "LabelMissingSupplementaryEbook": "Nemá žádnou doplňkovou elektronickou knihu",
   "LabelMobileRedirectURIs": "Povolené mobilní přesměrování URI",
-  "LabelMobileRedirectURIsDescription": "Toto je seznam povolených přesměrování URI pro mobilní aplikace. Výchozí je <code>universalaudiobooks://oauth</code>, který můžete odstranit nebo doplnit o další URI pro integraci aplikací třetích stran. Použití hvězdičky (<code>*</code>) jako jediné položky povoluje libovolný URI.",
+  "LabelMobileRedirectURIsDescription": "Toto je seznam povolených přesměrování URI pro mobilní aplikace. Výchozí je <code>audiobookshelf://oauth</code>, který můžete odstranit nebo doplnit o další URI pro integraci aplikací třetích stran. Použití hvězdičky (<code>*</code>) jako jediné položky povoluje libovolný URI.",
   "LabelMore": "Více",
   "LabelMoreInfo": "Více informací",
   "LabelName": "Jméno",

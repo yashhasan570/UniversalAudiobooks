@@ -469,7 +469,7 @@
   "LabelMissingEbook": "Saknar e-bok",
   "LabelMissingSupplementaryEbook": "Saknar kompletterande e-bok",
   "LabelMobileRedirectURIs": "Tillåtna mobila omdirigerings-URI:er",
-  "LabelMobileRedirectURIsDescription": "Det här är en lista över tillåtna omdirigerings-URI:er för mobilappar. Standardvärdet är <code>universalaudiobooks://oauth</code>. Du kan ta bort det eller lägga till URI:er för andra appar. Om en asterisk (<code>*</code>) anges som enda värde tillåts alla URI:er.",
+  "LabelMobileRedirectURIsDescription": "Det här är en lista över tillåtna omdirigerings-URI:er för mobilappar. Standardvärdet är <code>audiobookshelf://oauth</code>. Du kan ta bort det eller lägga till URI:er för andra appar. Om en asterisk (<code>*</code>) anges som enda värde tillåts alla URI:er.",
   "LabelMore": "Mer",
   "LabelMoreInfo": "Mer information",
   "LabelName": "Namn",

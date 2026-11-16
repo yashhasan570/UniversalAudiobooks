@@ -469,7 +469,7 @@
   "LabelMissingEbook": "Ne possède aucun livre numérique",
   "LabelMissingSupplementaryEbook": "Ne possède aucun livre numérique supplémentaire",
   "LabelMobileRedirectURIs": "URI de redirection mobile autorisés",
-  "LabelMobileRedirectURIsDescription": "Il s’agit d’une liste blanche d’URI de redirection valides pour les applications mobiles. Celui par défaut est <code>universalaudiobooks://oauth</code>, que vous pouvez supprimer ou compléter avec des URIs supplémentaires pour l’intégration d’applications tierces. L’utilisation d’un astérisque (<code>*</code>) comme seule entrée autorise n’importe quel URI.",
+  "LabelMobileRedirectURIsDescription": "Il s’agit d’une liste blanche d’URI de redirection valides pour les applications mobiles. Celui par défaut est <code>audiobookshelf://oauth</code>, que vous pouvez supprimer ou compléter avec des URIs supplémentaires pour l’intégration d’applications tierces. L’utilisation d’un astérisque (<code>*</code>) comme seule entrée autorise n’importe quel URI.",
   "LabelMore": "Plus",
   "LabelMoreInfo": "Plus d’infos",
   "LabelName": "Nom",

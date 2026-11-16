@@ -2904,7 +2904,7 @@
           "icon": {
             "description": "The selected icon for the library. See Library Icons for a list of possible icons.",
             "type": "string",
-            "example": "universalaudiobooks"
+            "example": "audiobookshelf"
           },
           "mediaType": {
             "description": "The type of media that the library contains. Will be `book` or `podcast`. (Read Only)",
@@ -2943,7 +2943,7 @@
       "libraryIcon": {
         "description": "The icon of the library. See Library Icons for a list of possible icons.",
         "type": "string",
-        "example": "universalaudiobooks"
+        "example": "audiobookshelf"
       },
       "libraryMediaType": {
         "description": "The type of media that the library contains. Must be `book` or `podcast`.",

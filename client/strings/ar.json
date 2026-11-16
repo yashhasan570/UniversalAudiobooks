@@ -458,7 +458,7 @@
   "LabelMissingEbook": "لا يوجد كتاب إلكتروني",
   "LabelMissingSupplementaryEbook": "لا يوجد كتاب إلكتروني تكميلي",
   "LabelMobileRedirectURIs": "معرفات URI لإعادة التوجيه المسموح بها لتطبيقات الجوال",
-  "LabelMobileRedirectURIsDescription": "هذه قائمة بيضاء لمعرفات URI لإعادة التوجيه الصالحة لتطبيقات الجوال. المعرف الافتراضي هو <code>universalaudiobooks://oauth</code>، والذي يمكنك إزالته أو استكماله بمعرفات URI إضافية لتكامل تطبيقات الطرف الثالث. استخدام علامة النجمة (<code>*</code>) كإدخال وحيد يسمح بأي معرف URI.",
+  "LabelMobileRedirectURIsDescription": "هذه قائمة بيضاء لمعرفات URI لإعادة التوجيه الصالحة لتطبيقات الجوال. المعرف الافتراضي هو <code>audiobookshelf://oauth</code>، والذي يمكنك إزالته أو استكماله بمعرفات URI إضافية لتكامل تطبيقات الطرف الثالث. استخدام علامة النجمة (<code>*</code>) كإدخال وحيد يسمح بأي معرف URI.",
   "LabelMore": "أكثر",
   "LabelMoreInfo": "معلومات أكثر",
   "LabelName": "الاسم",

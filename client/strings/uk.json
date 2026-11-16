@@ -466,7 +466,7 @@
   "LabelMissingEbook": "Без електронної книги",
   "LabelMissingSupplementaryEbook": "Без додаткової електронної книги",
   "LabelMobileRedirectURIs": "Дозволені адреси перенаправлення",
-  "LabelMobileRedirectURIsDescription": "Це білий список наявних URI, що перенаправляють у мобільний додаток. За замовчуванням це <code>universalaudiobooks://oauth</code>, який ви можете видалити або ж додати інші адреси для сторонніх інтеграцій. Використайте зірочку (<code>*</code>), аби дозволити будь-яке URI.",
+  "LabelMobileRedirectURIsDescription": "Це білий список наявних URI, що перенаправляють у мобільний додаток. За замовчуванням це <code>audiobookshelf://oauth</code>, який ви можете видалити або ж додати інші адреси для сторонніх інтеграцій. Використайте зірочку (<code>*</code>), аби дозволити будь-яке URI.",
   "LabelMore": "Більше",
   "LabelMoreInfo": "Докладніше",
   "LabelName": "Назва",

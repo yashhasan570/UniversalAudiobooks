@@ -1,5 +1,5 @@
 {
-  "name": "universalaudiobooks-client",
+  "name": "audiobookshelf-client",
   "version": "2.37.2",
   "buildNumber": 1,
   "description": "Self-hosted audiobook and podcast client",
@@ -14,7 +14,7 @@
     "test-visually": "npm run compile-tailwind && cypress open --component --browser chrome",
     "compile-tailwind": "npx @tailwindcss/cli -i ./assets/tailwind.css -o ./cypress/support/tailwind.compiled.css"
   },
-  "author": "yashhasan570",
+  "author": "advplyr",
   "license": "ISC",
   "dependencies": {
     "@nuxtjs/axios": "^5.13.6",

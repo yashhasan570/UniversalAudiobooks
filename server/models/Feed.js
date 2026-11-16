@@ -575,8 +575,8 @@ class Feed extends Model {
   buildXml(hostPrefix) {
     const customElements = [
       { language: this.language || 'en' },
-      { author: this.author || 'yashhasan570' },
-      { 'itunes:author': this.author || 'yashhasan570' },
+      { author: this.author || 'advplyr' },
+      { 'itunes:author': this.author || 'advplyr' },
       { 'itunes:type': this.podcastType || 'serial' },
       {
         'itunes:image': {

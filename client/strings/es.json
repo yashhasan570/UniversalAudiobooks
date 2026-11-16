@@ -469,7 +469,7 @@
   "LabelMissingEbook": "No tiene libro electrónico",
   "LabelMissingSupplementaryEbook": "No tiene libro electrónico suplementario",
   "LabelMobileRedirectURIs": "URIs de redirección a móviles permitidos",
-  "LabelMobileRedirectURIsDescription": "Esta es una lista en blanco de las URI de re‐direccionamiento válidos para aplicaciones móviles. El predeterminado es <code>universalaudiobooks</code> , que puede retirar o sustituir con las URI adicionales para la integración de aplicaciones de terceros. Usando un asterisco (<code>*</code> ) como única entrada que permite cualquier URI.",
+  "LabelMobileRedirectURIsDescription": "Esta es una lista en blanco de las URI de re‐direccionamiento válidos para aplicaciones móviles. El predeterminado es <code>audiobookshelf</code> , que puede retirar o sustituir con las URI adicionales para la integración de aplicaciones de terceros. Usando un asterisco (<code>*</code> ) como única entrada que permite cualquier URI.",
   "LabelMore": "Más",
   "LabelMoreInfo": "Más información",
   "LabelName": "Nombre",

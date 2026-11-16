@@ -452,7 +452,7 @@
   "LabelMissingEbook": "No té llibre electrònic",
   "LabelMissingSupplementaryEbook": "No té ebook complementari",
   "LabelMobileRedirectURIs": "URI de redirecció mòbil permeses",
-  "LabelMobileRedirectURIsDescription": "Aquesta és una llista blanca d'URI de redirecció vàlides per a aplicacions mòbils. El predeterminat és <code> universalaudiobooks</code>, que pots eliminar o complementar amb URI addicionals per a la integració d'aplicacions de tercers. Usant un asterisc (<code> *</code>) com a única entrada que permet qualsevol URI.",
+  "LabelMobileRedirectURIsDescription": "Aquesta és una llista blanca d'URI de redirecció vàlides per a aplicacions mòbils. El predeterminat és <code> audiobookshelf</code>, que pots eliminar o complementar amb URI addicionals per a la integració d'aplicacions de tercers. Usant un asterisc (<code> *</code>) com a única entrada que permet qualsevol URI.",
   "LabelMore": "Més",
   "LabelMoreInfo": "Més informació",
   "LabelName": "Nom",

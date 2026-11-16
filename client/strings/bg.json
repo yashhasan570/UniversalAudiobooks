@@ -466,7 +466,7 @@
   "LabelMissingEbook": "Няма електронна книга",
   "LabelMissingSupplementaryEbook": "Няма допълнителна електронна книга",
   "LabelMobileRedirectURIs": "Позволени URI за Мобилно Пренасочване",
-  "LabelMobileRedirectURIsDescription": "Това е whitelist на валидни URI за пренасочване за мобилни приложения. По подразбиране е <code>universalaudiobooks://oauth</code>, който може да премахнете или допълните с допълнителни URI за интеграция на приложения от трети страни. Използването на звезда (<code>*</code>) като единствен запис позволява всеки URI.",
+  "LabelMobileRedirectURIsDescription": "Това е whitelist на валидни URI за пренасочване за мобилни приложения. По подразбиране е <code>audiobookshelf://oauth</code>, който може да премахнете или допълните с допълнителни URI за интеграция на приложения от трети страни. Използването на звезда (<code>*</code>) като единствен запис позволява всеки URI.",
   "LabelMore": "Повече",
   "LabelMoreInfo": "Повече информация",
   "LabelName": "Име",
