@@ -13,7 +13,7 @@ def main():
         ('Audiobookshelf','Universal Audiobooks'),
     ]
     TEXT_EXTS = {'.js','.vue','.ts','.json','.yaml','.yml','.md','.html','.sh','.txt','.xml'}
-    SKIP = {'.git','node_modules','scripts'}
+    SKIP = {'.github', '.git','node_modules','scripts'}
     changed = 0
     for dirpath, dirnames, filenames in os.walk(ROOT):
         dirnames[:] = [d for d in dirnames if d not in SKIP]
